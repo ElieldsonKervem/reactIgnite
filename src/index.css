@@ -1,0 +1,33 @@
+
+:root{
+  --white:#fff;
+
+  --white-100:#e1e1e6;
+  --white-200:#a8a8b3;
+  --gray-100: #87868603;
+  --gray-300: #29292e;
+  --gray-900: #121214;
+
+  --green-500:#00e676;
+
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--gray-900);
+  color: var(--white);
+
+  -webkit-font-smoothing: antialiased;
+  
+}
+
+body,input,button,textarea{
+  font: 400 16px 'Roboto', sans-serif;
+  font-size: 1rem;
+}
