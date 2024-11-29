@@ -1,0 +1,88 @@
+
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: var(--gray-100);
+    border-radius: 8px;
+    height: 25rem;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+}
+.backgroundDiv{
+    background-image:url("../public/bgsSideBar.jpg");
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    height: 7rem;
+    width: 100%;
+    opacity: 0.5;
+
+    
+}
+.sidebar img{
+    width: 100%;
+    max-width: 5rem;
+    height: 5rem;
+    margin: 4rem 0 0;
+    border-radius: 0.2rem;
+    background-size: contain;
+    padding: 0.4rem;
+    background: var( --gray-900);
+    border: 2px solid var(--green-300);
+
+}
+
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+.profile strong{
+    font-size: 1.5rem;
+}
+.profile span {
+    font-size: 1rem;
+    color: var(--gray-300);
+}
+
+.sidebar footer{
+    border-top: 1px solid var(--gray-200);
+    margin-top: 0.5rem;
+    padding: 1rem 2rem 2rem;
+}
+
+.sidebar footer a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--green-300);
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+    border: 1px solid var(--green-300);
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    transition: 0.3s all;
+}
+
+.sidebar footer a:hover{
+    background: var(--green-500);
+    color: var(--white);
+    transition: 0.3s all;
+    cursor: pointer;
+} 
+.sidebar .horizontalRow {
+    width: 100%;
+    height: 0.1px;
+    opacity: 0.5;
+    margin-top: 1rem;
+
+    background: var(--gray-300);
+    
+} 
