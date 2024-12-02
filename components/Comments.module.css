@@ -1,0 +1,91 @@
+
+
+.comment {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    align-items: center;
+    gap: 1rem;
+
+}
+.comment img {
+    width: 100%;
+    max-width: 5rem;
+    height: 5rem;
+  
+    border-radius: 0.2rem;
+    background-size: contain;
+    padding: 0.4rem;
+    background: var( --gray-900);
+    border: 2px solid var(--green-300);
+}
+.commentBox{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    align-items: baseline;
+    margin-top: 1rem;
+}
+.commentBox header{
+    width: 32rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.commentBox header div time{
+   margin-left: 1rem;
+   color: var(--gray-300);
+   font-size: 0.8rem;
+}
+.commentBox header button{
+    background: none;
+    color: var(--gray-300);
+    border: none;
+    display: flex;
+    align-items: start;
+    transition: 0.3s all;
+    width: 1.3rem;
+    
+}
+.commentBox  p {
+    font-size: 1rem;
+    color: var(--gray-300);
+    font-weight: bold;
+}
+.commentBox footer button {
+    background: none;
+    color: var(--gray-300);
+    border: none;
+    
+    width: 11rem;
+    display: flex;
+    align-items: start;
+    transition: 0.3s all;
+    
+    align-items: baseline;
+    margin-top: 1rem;
+}
+.commentBox button span{
+    margin-left: 0.5rem;
+}
+.commentBox button span::before{
+    content: '\25CF';
+    width: 16px;
+    height: 16px;
+
+    background-size: contain;
+    margin-right: 0.5rem;
+}
+.commentBox .thumbsUp{
+    margin-right: 1rem;
+    width: 16px;
+    height: 16px;
+}
+.commentBox .thumbsUp:hover{
+    color: var(--green-500);
+    cursor: pointer;
+}

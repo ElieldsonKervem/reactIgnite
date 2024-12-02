@@ -2,8 +2,10 @@
 
 import Header from "../components/header"
 import Sidebar from "../components/SideBar"
+
 import styles from "./app.module.css"
 import Post from "../components/Post"
+
 
 function App() {
 
@@ -17,7 +19,11 @@ function App() {
          </aside>
           <main>
              <Post/>
+             
              <Post/>
+
+  
+
           </main>
            
      </div>

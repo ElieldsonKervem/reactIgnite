@@ -1,3 +1,4 @@
+import Comments from './Comments';
 import styles from './Post.module.css'
 
 function Post (){
@@ -35,7 +36,11 @@ function Post (){
              <strong>Deixe seu feed back</strong>
              <textarea className={styles.textArea} placeholder='deixe seu comentario'></textarea>
              <button>Comentar</button>
-            </form>    
+            </form>
+
+            <div className={styles.CommentList}>
+                <Comments/>
+            </div>    
           
       </article>
     )
